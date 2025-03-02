@@ -52,6 +52,8 @@ This will fetch the **ARP table** and extract all active IP addresses.
 
 This will add a Windows Firewall rule to block inbound traffic from that IP.
 
+---
+
 ### 🔓 Unblock an IP Address
 1. Open openIP.js and change the ipAddressToBlock variable to the blocked IP you want to unblock.
 2. Run the script:
@@ -59,11 +61,15 @@ This will add a Windows Firewall rule to block inbound traffic from that IP.
    `node open_IP.js`
 3. This removes the firewall rule for the specified IP.
 
+---
+
 ## ⚠️ Important Notes
 🔸 **Windows Only** - This tool uses netsh, which is Windows-specific.
 🔸 **Admin Privileges Required** - You must run Node.js with Administrator permissions to modify firewall rules.
 🔸 **Persistent Blocking** - Blocked IPs remain blocked until manually unblocked.
 🔸 **For Educational & Security Use Only** - Misuse of this tool is discouraged.
+
+---
 
 ## 🖥️ Example Output
 1. Running get_IP.js
@@ -76,6 +82,8 @@ This will add a Windows Firewall rule to block inbound traffic from that IP.
 3. Running open_IP.js
    Command stdout: Ok.
    Command stderr: 
+
+---
 
 ### 🎯 **Conclusion**  
 The **IP Defender** project provides a simple yet effective way to monitor and control network access using Node.js and Windows Firewall rules. With just a few commands, you can:  
