@@ -73,5 +73,3 @@ console.error(`Command stderr: ${stderr}`);
 3. **Constructs a Windows Firewall command** to delete the blocking rule.
 4. **Executes the command** using `exec`.
 5. **Handles success and errors**, logging them to the console.
-
-🚀 Now you can easily copy and use this explanation in Markdown format!
